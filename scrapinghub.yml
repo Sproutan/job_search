@@ -1,0 +1,4 @@
+projects:
+  default: job_search.py
+requirements:
+  file: requirements.txt

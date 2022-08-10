@@ -22,17 +22,17 @@ if __name__ == "__main__":
 
 
 
-def file_reader():
-    with open("results.csv") as file:
-        reader = csv.reader(file)
+# def file_reader():
+#     with open("results.csv") as file:
+#         reader = csv.reader(file)
 
-        count = 0
+#         count = 0
 
-        for row in reader:
-            print(row[0])
+#         for row in reader:
+#             print(row[0])
 
-            if count > 10:
-                break
+#             if count > 10:
+#                 break
 
-            count += 1
+#             count += 1
 

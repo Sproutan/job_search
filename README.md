@@ -2,6 +2,13 @@
 Looking for a job in this job climate
 
 
+
+
+# When its all downloaded, type "python job_search_front_end.py" to access the web app
+
+
+
+
 Downloading Anaconda:
 
 # check to see if it is installed

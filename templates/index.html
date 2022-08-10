@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Indeed Job Scraper </title>
+</head>
+
+<body>
+<h1>Hopefully this works</h1>
+<p> Seriously, this is put together with band aids and fruit rollup. Best of luck {{content}}</p>
+<table id="demo">
+    {% for row in csv %}
+      <tr>
+      {% for col in row.split(",") %}
+      <td>{{ col }}</td>
+      {% endfor %}
+      </tr>
+    {% endfor %}
+    </table>
+
+
+</body>
+
+</html>

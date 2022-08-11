@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Indeed Job Scraper </title>
+<title> Indeed Job Scraper Results </title>
 </head>
 
 <body>
 <h1>Hopefully this works</h1>
-<p> Seriously, this is put together with band aids and fruit rollup. Best of luck {{content}}</p>
+<p> Seriously, this is put together with band aids and fruit rollup. Best of luck, bub</p>
+
+Whew done! <a href="results.csv">Download the Job Search File here.</a>
+
+
 <table id="demo">
+    
     {% for row in csv %}
       <tr>
       {% for col in row.split(",") %}
